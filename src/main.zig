@@ -103,10 +103,6 @@ pub fn main() !void {
 
         rl.clearBackground(.ray_white);
 
-        // Imagem original
-
-        // Transformação de potência
-
         if (img_tx) |_| {
             // Imagem original
             rl.drawTexture(img_tx.?, 0, 64, .white);
